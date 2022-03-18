@@ -51,3 +51,20 @@ color: gray;
 }
 
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+
+.grid div:nth-child(1){
+    grid-column-start:1;
+    grid-column-end: -1;
+}
+
+#toptitle {
+    font-size: 400%;
+    border: 10px solid purple;
+    border-radius:10px;
+}
