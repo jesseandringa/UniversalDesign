@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Heidi's Fighter Stories</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="FighterStories.css">
+</head>
+<body>
+
+    <!-- Links (sit on top) -->
+    <!-- <nav role = "navigation">
+    <div class="w3-top">
+        <div class="w3-row w3-padding w3-white" >
+            <div class="w3-col m2 resize" id="logo">
+                <img id="logo" src="photos/logo.jpg" alt="heidis-heroes logo">
+            </div>
+            <div class="w3-col m2 w3-center">
+                <a href="https://www.heidis-heroes.com/" class="w3-button w3-block w3-white">Home</a>
+            </div>
+            <div class="w3-col m2">
+                <a href="https://www.heidis-heroes.com/about" class="w3-button w3-block w3-white">About</a>
+            </div>
+            <div class="w3-col m2" >
+                <a href="https://www.heidis-heroes.com/donate" class="w3-button w3-block w3-white">Donate</a>
+            </div>
+            <div class="w3-col m2">
+                <a href="#where" class="w3-button w3-block w3-white">Fighter Stories</a>
+            </div>
+            <div class="w3-col m2">
+                <a href="https://www.heidis-heroes.com/amazon-wishlist" class="w3-button w3-block w3-white">Amazon WishList</a>
+            </div>
+            
+        </div>
+    </div>
+    </nav>
+    <br>
+    <br> -->
+    <nav role="navigation">
+      <ul>
+        <li><img id="logo" src="photos/logo.jpg" alt="heidis-heroes logo"></li>
+        <li><a href="https://www.heidis-heroes.com/">Home</a></li>
+        <li><a href="https://www.heidis-heroes.com/about">About</a></li>
+        <li><a href="https://www.heidis-heroes.com/donate">Donate</a></li>
+        <li><a href="#">Fighter Stories</a></li>
+        <li><a href="https://www.heidis-heroes.com/amazon-wishlist">Wishlist</a></li>
+      </ul>
+ </nav>
+
+    <!-- Header with image -->
+    <header role="banner" class="bgimg w3-display-container " id="home" src="photos/bg_f.jpg">
+        
+        <div class="w3-display-middle w3-center">
+            <span class="w3-text-black w3-padding w3-sand" style="font-size:90px">Fighter Stories</span>
+        </div>
+        
+    </header>
+
+
+    <!-- Add a background color and large text to the whole page -->
+    <div class="w3-sand w3-large">
+        <br>
+        <br>
+        <br>
+
+        <!-- fighter grid  Container -->
+    <main role ="main">
+    <div class="grid">
+        <div>
+            <img id="bexly" src = "photos/bexly.jpg" alt="Photo of Bexly pushing doll in stroler">
+        </div>
+        <div id="stories">
+            <h2>Bexly</h2>
+            <p>Meet my new best friend Bexley and her doll Who Let The Dogs Out! Her mom suggested the name Heidi (my personal favorite) but naturally, at the end of the day, the name Who Let The Dogs Out won (middle name Who Who). Bexley is 3, and fighting ALL, Acute Lymphoblastic Leukemia. She was diagnosed in August of 2020, after feeling sick for several days. She is doing great throughout treatment so far, and her spunky personality continues to steal the hearts of those who meet her. Cancer picked the wrong kiddo! Oh Bexley we love you!</p></div>
+        <div><img id="bexly" src = "photos/lilly.jpg" alt="Photo of Bexly holding her doll"></div>
+        <div id="stories">
+            <h2>Lilly</h2>
+            <p>Lilly was diagnosed at just three months old with Ewing's Sarcoma. Hours after finishing treatment she went into septic shock and almost didn't survive the night. Today, Lilly is seven years cancer free. She has faced challenges us adults cannot even imagine. Because of the harsh treatments she endured to save her life, Lilly must fight everyday to get to simply be a carefree child. Lilly’s heart extends far past herself. She is full of compassion and empathy for others fighting cancer. Her bravery and love reminds us all to live every day to the fullest.</p>
+        </div>
+        <div><img id="bexly" src = "photos/Indy.jpg" alt="Photo of Indy playing with her doll"></div>
+        <div id="stories">
+            <h2>Indy</h2>
+            <p>Indy fought relapsed leukemia at age 4. After several months cancer free, new leukemia cells were found behind her eye. Indy was a miracle, she continued to defy the odds. In 2020 she was told her bone marrow transplant failed, and there was nothing left that could be done, however with a storm of prayers from around the world, Indy was found to be cancer free. A few months later, Indy relapsed again, and passed away on June 3, 2021. She was and still is so widely loved and inspires those around her to be their best selves. Her story will continue on, teaching everyone who hears it all bout joy, love and faith. She is forever our hero.</p>
+        </div>
+    </div>
+</main>
+
+       
+
+       
+       
+
+        <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer role = "contentinfo" class="w3-center w3-light-grey w3-padding-48 w3-large">
+        <a href="https://www.facebook.com/heidi.andringa.7" class="fa fa-facebook-square" style="font-size:36px"></a>
+        <a href="https://www.instagram.com/heidisheroes/" class="fa fa-instagram" style="font-size:36px"></a>
+    </footer>
+
+    <script>// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();</script>
+
+</body>
+</html>
+
